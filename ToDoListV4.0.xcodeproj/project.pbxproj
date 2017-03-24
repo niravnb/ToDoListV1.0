@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41435F7F1C0055AF00EB3D97 /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41435F751C0055AF00EB3D97 /* SWCellScrollView.m */; settings = {ASSET_TAGS = (); }; };
+		41435F801C0055AF00EB3D97 /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 41435F771C0055AF00EB3D97 /* SWLongPressGestureRecognizer.m */; settings = {ASSET_TAGS = (); }; };
+		41435F811C0055AF00EB3D97 /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41435F791C0055AF00EB3D97 /* SWTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		41435F821C0055AF00EB3D97 /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 41435F7B1C0055AF00EB3D97 /* SWUtilityButtonTapGestureRecognizer.m */; settings = {ASSET_TAGS = (); }; };
+		41435F831C0055AF00EB3D97 /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41435F7D1C0055AF00EB3D97 /* SWUtilityButtonView.m */; settings = {ASSET_TAGS = (); }; };
+		41435F861C005DCB00EB3D97 /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 41435F851C005DCB00EB3D97 /* NSMutableArray+SWUtilityButtons.m */; settings = {ASSET_TAGS = (); }; };
+		41435F8C1C0068C600EB3D97 /* EditToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41435F8B1C0068C600EB3D97 /* EditToDoItemViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4180E0971C1432F30012A5E6 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4180E0961C1432F30012A5E6 /* Launch.storyboard */; settings = {ASSET_TAGS = (); }; };
+		41D06D951BCA4B9800F185FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D06D941BCA4B9800F185FD /* main.m */; };
+		41D06D981BCA4B9800F185FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D06D971BCA4B9800F185FD /* AppDelegate.m */; };
+		41D06D9B1BCA4B9800F185FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D06D9A1BCA4B9800F185FD /* ViewController.m */; };
+		41D06D9E1BCA4B9800F185FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D06D9C1BCA4B9800F185FD /* Main.storyboard */; };
+		41D06DA01BCA4B9800F185FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41D06D9F1BCA4B9800F185FD /* Assets.xcassets */; };
+		41D06DA31BCA4B9800F185FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D06DA11BCA4B9800F185FD /* LaunchScreen.storyboard */; };
+		41D06DAC1BCA525F00F185FD /* AddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D06DAB1BCA525F00F185FD /* AddToDoItemViewController.m */; settings = {ASSET_TAGS = (); }; };
+		41D06DAF1BCA531000F185FD /* ToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D06DAE1BCA531000F185FD /* ToDoListTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		41DD76C21C00C33200B4BE1D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41DD76C11C00C33200B4BE1D /* CoreData.framework */; };
+		41DD76C51C00C3FB00B4BE1D /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41DD76C31C00C3FB00B4BE1D /* Model.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
+		41DD76CA1C00C48800B4BE1D /* ToDoItem+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DD76C71C00C48800B4BE1D /* ToDoItem+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		41DD76CB1C00C48800B4BE1D /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DD76C91C00C48800B4BE1D /* ToDoItem.m */; settings = {ASSET_TAGS = (); }; };
+		41DD76CE1C00C8EE00B4BE1D /* MyDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DD76CD1C00C8EE00B4BE1D /* MyDataController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41435F741C0055AF00EB3D97 /* SWCellScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWCellScrollView.h; sourceTree = "<group>"; };
+		41435F751C0055AF00EB3D97 /* SWCellScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWCellScrollView.m; sourceTree = "<group>"; };
+		41435F761C0055AF00EB3D97 /* SWLongPressGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWLongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		41435F771C0055AF00EB3D97 /* SWLongPressGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWLongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		41435F781C0055AF00EB3D97 /* SWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableViewCell.h; sourceTree = "<group>"; };
+		41435F791C0055AF00EB3D97 /* SWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableViewCell.m; sourceTree = "<group>"; };
+		41435F7A1C0055AF00EB3D97 /* SWUtilityButtonTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonTapGestureRecognizer.h; sourceTree = "<group>"; };
+		41435F7B1C0055AF00EB3D97 /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
+		41435F7C1C0055AF00EB3D97 /* SWUtilityButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonView.h; sourceTree = "<group>"; };
+		41435F7D1C0055AF00EB3D97 /* SWUtilityButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonView.m; sourceTree = "<group>"; };
+		41435F841C005DCB00EB3D97 /* NSMutableArray+SWUtilityButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+SWUtilityButtons.h"; path = "../NSMutableArray+SWUtilityButtons.h"; sourceTree = "<group>"; };
+		41435F851C005DCB00EB3D97 /* NSMutableArray+SWUtilityButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+SWUtilityButtons.m"; path = "../NSMutableArray+SWUtilityButtons.m"; sourceTree = "<group>"; };
+		41435F8A1C0068C600EB3D97 /* EditToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditToDoItemViewController.h; path = ../EditToDoItemViewController.h; sourceTree = "<group>"; };
+		41435F8B1C0068C600EB3D97 /* EditToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditToDoItemViewController.m; path = ../EditToDoItemViewController.m; sourceTree = "<group>"; };
+		4180E0961C1432F30012A5E6 /* Launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
+		41D06D901BCA4B9800F185FD /* ToDoListV4.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoListV4.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D06D941BCA4B9800F185FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41D06D961BCA4B9800F185FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41D06D971BCA4B9800F185FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41D06D991BCA4B9800F185FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		41D06D9A1BCA4B9800F185FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		41D06D9D1BCA4B9800F185FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41D06D9F1BCA4B9800F185FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41D06DA21BCA4B9800F185FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41D06DA41BCA4B9800F185FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41D06DAA1BCA525F00F185FD /* AddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddToDoItemViewController.h; sourceTree = "<group>"; };
+		41D06DAB1BCA525F00F185FD /* AddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddToDoItemViewController.m; sourceTree = "<group>"; };
+		41D06DAD1BCA531000F185FD /* ToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoListTableViewController.h; sourceTree = "<group>"; };
+		41D06DAE1BCA531000F185FD /* ToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoListTableViewController.m; sourceTree = "<group>"; };
+		41DD76C11C00C33200B4BE1D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		41DD76C41C00C3FB00B4BE1D /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		41DD76C61C00C48800B4BE1D /* ToDoItem+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ToDoItem+CoreDataProperties.h"; path = "../ToDoItem+CoreDataProperties.h"; sourceTree = "<group>"; };
+		41DD76C71C00C48800B4BE1D /* ToDoItem+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ToDoItem+CoreDataProperties.m"; path = "../ToDoItem+CoreDataProperties.m"; sourceTree = "<group>"; };
+		41DD76C81C00C48800B4BE1D /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToDoItem.h; path = ../ToDoItem.h; sourceTree = "<group>"; };
+		41DD76C91C00C48800B4BE1D /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ToDoItem.m; path = ../ToDoItem.m; sourceTree = "<group>"; };
+		41DD76CC1C00C8EE00B4BE1D /* MyDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDataController.h; sourceTree = "<group>"; };
+		41DD76CD1C00C8EE00B4BE1D /* MyDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDataController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41D06D8D1BCA4B9800F185FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41DD76C21C00C33200B4BE1D /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41D06D871BCA4B9800F185FD = {
+			isa = PBXGroup;
+			children = (
+				4180E0961C1432F30012A5E6 /* Launch.storyboard */,
+				41DD76C11C00C33200B4BE1D /* CoreData.framework */,
+				41D06D921BCA4B9800F185FD /* ToDoListV1.0 */,
+				41D06D911BCA4B9800F185FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41D06D911BCA4B9800F185FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41D06D901BCA4B9800F185FD /* ToDoListV4.0.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41D06D921BCA4B9800F185FD /* ToDoListV1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				41DD76C61C00C48800B4BE1D /* ToDoItem+CoreDataProperties.h */,
+				41DD76C71C00C48800B4BE1D /* ToDoItem+CoreDataProperties.m */,
+				41DD76C81C00C48800B4BE1D /* ToDoItem.h */,
+				41DD76C91C00C48800B4BE1D /* ToDoItem.m */,
+				41435F841C005DCB00EB3D97 /* NSMutableArray+SWUtilityButtons.h */,
+				41435F851C005DCB00EB3D97 /* NSMutableArray+SWUtilityButtons.m */,
+				41435F741C0055AF00EB3D97 /* SWCellScrollView.h */,
+				41435F751C0055AF00EB3D97 /* SWCellScrollView.m */,
+				41435F761C0055AF00EB3D97 /* SWLongPressGestureRecognizer.h */,
+				41435F771C0055AF00EB3D97 /* SWLongPressGestureRecognizer.m */,
+				41435F781C0055AF00EB3D97 /* SWTableViewCell.h */,
+				41435F791C0055AF00EB3D97 /* SWTableViewCell.m */,
+				41435F7A1C0055AF00EB3D97 /* SWUtilityButtonTapGestureRecognizer.h */,
+				41435F7B1C0055AF00EB3D97 /* SWUtilityButtonTapGestureRecognizer.m */,
+				41435F7C1C0055AF00EB3D97 /* SWUtilityButtonView.h */,
+				41435F7D1C0055AF00EB3D97 /* SWUtilityButtonView.m */,
+				41D06D961BCA4B9800F185FD /* AppDelegate.h */,
+				41D06D971BCA4B9800F185FD /* AppDelegate.m */,
+				41D06D991BCA4B9800F185FD /* ViewController.h */,
+				41D06D9A1BCA4B9800F185FD /* ViewController.m */,
+				41D06D9C1BCA4B9800F185FD /* Main.storyboard */,
+				41D06DAD1BCA531000F185FD /* ToDoListTableViewController.h */,
+				41D06DAE1BCA531000F185FD /* ToDoListTableViewController.m */,
+				41D06DAA1BCA525F00F185FD /* AddToDoItemViewController.h */,
+				41D06DAB1BCA525F00F185FD /* AddToDoItemViewController.m */,
+				41435F8A1C0068C600EB3D97 /* EditToDoItemViewController.h */,
+				41435F8B1C0068C600EB3D97 /* EditToDoItemViewController.m */,
+				41D06D9F1BCA4B9800F185FD /* Assets.xcassets */,
+				41D06DA11BCA4B9800F185FD /* LaunchScreen.storyboard */,
+				41D06DA41BCA4B9800F185FD /* Info.plist */,
+				41D06D931BCA4B9800F185FD /* Supporting Files */,
+				41DD76C31C00C3FB00B4BE1D /* Model.xcdatamodeld */,
+				41DD76CC1C00C8EE00B4BE1D /* MyDataController.h */,
+				41DD76CD1C00C8EE00B4BE1D /* MyDataController.m */,
+			);
+			path = ToDoListV1.0;
+			sourceTree = "<group>";
+		};
+		41D06D931BCA4B9800F185FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41D06D941BCA4B9800F185FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41D06D8F1BCA4B9800F185FD /* ToDoListV4.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41D06DA71BCA4B9800F185FD /* Build configuration list for PBXNativeTarget "ToDoListV4.0" */;
+			buildPhases = (
+				41D06D8C1BCA4B9800F185FD /* Sources */,
+				41D06D8D1BCA4B9800F185FD /* Frameworks */,
+				41D06D8E1BCA4B9800F185FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToDoListV4.0;
+			productName = ToDoListV1.0;
+			productReference = 41D06D901BCA4B9800F185FD /* ToDoListV4.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41D06D881BCA4B9800F185FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Nirav Bhavsar";
+				TargetAttributes = {
+					41D06D8F1BCA4B9800F185FD = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = Z9JYTY4F75;
+					};
+				};
+			};
+			buildConfigurationList = 41D06D8B1BCA4B9800F185FD /* Build configuration list for PBXProject "ToDoListV4.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41D06D871BCA4B9800F185FD;
+			productRefGroup = 41D06D911BCA4B9800F185FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41D06D8F1BCA4B9800F185FD /* ToDoListV4.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41D06D8E1BCA4B9800F185FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D06DA31BCA4B9800F185FD /* LaunchScreen.storyboard in Resources */,
+				41D06DA01BCA4B9800F185FD /* Assets.xcassets in Resources */,
+				41D06D9E1BCA4B9800F185FD /* Main.storyboard in Resources */,
+				4180E0971C1432F30012A5E6 /* Launch.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41D06D8C1BCA4B9800F185FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41435F831C0055AF00EB3D97 /* SWUtilityButtonView.m in Sources */,
+				41DD76CE1C00C8EE00B4BE1D /* MyDataController.m in Sources */,
+				41435F861C005DCB00EB3D97 /* NSMutableArray+SWUtilityButtons.m in Sources */,
+				41DD76C51C00C3FB00B4BE1D /* Model.xcdatamodeld in Sources */,
+				41435F811C0055AF00EB3D97 /* SWTableViewCell.m in Sources */,
+				41435F7F1C0055AF00EB3D97 /* SWCellScrollView.m in Sources */,
+				41D06D9B1BCA4B9800F185FD /* ViewController.m in Sources */,
+				41D06D981BCA4B9800F185FD /* AppDelegate.m in Sources */,
+				41435F8C1C0068C600EB3D97 /* EditToDoItemViewController.m in Sources */,
+				41435F801C0055AF00EB3D97 /* SWLongPressGestureRecognizer.m in Sources */,
+				41DD76CB1C00C48800B4BE1D /* ToDoItem.m in Sources */,
+				41DD76CA1C00C48800B4BE1D /* ToDoItem+CoreDataProperties.m in Sources */,
+				41D06D951BCA4B9800F185FD /* main.m in Sources */,
+				41435F821C0055AF00EB3D97 /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
+				41D06DAF1BCA531000F185FD /* ToDoListTableViewController.m in Sources */,
+				41D06DAC1BCA525F00F185FD /* AddToDoItemViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		41D06D9C1BCA4B9800F185FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41D06D9D1BCA4B9800F185FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41D06DA11BCA4B9800F185FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41D06DA21BCA4B9800F185FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41D06DA51BCA4B9800F185FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		41D06DA61BCA4B9800F185FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41D06DA81BCA4B9800F185FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ToDoListV1.0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.ToDoListV4-0";
+				PRODUCT_NAME = ToDoListV4.0;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		41D06DA91BCA4B9800F185FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ToDoListV1.0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.ToDoListV4-0";
+				PRODUCT_NAME = ToDoListV4.0;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41D06D8B1BCA4B9800F185FD /* Build configuration list for PBXProject "ToDoListV4.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41D06DA51BCA4B9800F185FD /* Debug */,
+				41D06DA61BCA4B9800F185FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41D06DA71BCA4B9800F185FD /* Build configuration list for PBXNativeTarget "ToDoListV4.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41D06DA81BCA4B9800F185FD /* Debug */,
+				41D06DA91BCA4B9800F185FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		41DD76C31C00C3FB00B4BE1D /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				41DD76C41C00C3FB00B4BE1D /* Model.xcdatamodel */,
+			);
+			currentVersion = 41DD76C41C00C3FB00B4BE1D /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 41D06D881BCA4B9800F185FD /* Project object */;
+}

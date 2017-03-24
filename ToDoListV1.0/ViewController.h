@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <LocalAuthentication/LocalAuthentication.h>
 
 @interface ViewController : UIViewController
 
-
+-(IBAction)signoff:(UIStoryboardSegue *)segue;
 @end
 
